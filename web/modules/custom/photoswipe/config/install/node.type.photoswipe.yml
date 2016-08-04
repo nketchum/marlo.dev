@@ -1,0 +1,9 @@
+langcode: en
+status: true
+name: PhotoSwipe
+type: photoswipe
+description: 'Create an responsive PhotoSwipe js-powered slideshow.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

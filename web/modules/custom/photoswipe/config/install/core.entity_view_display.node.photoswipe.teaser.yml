@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - core.entity_view_mode.node.teaser
+        - node.type.photoswipe
+    module:
+        - text
+        - user
+id: node.photoswipe.teaser
+targetEntityType: node
+bundle: photoswipe
+mode: teaser
+content:
+    links:
+        weight: 100
+hidden: {  }

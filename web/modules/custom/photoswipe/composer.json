@@ -1,0 +1,14 @@
+{
+  "name": "drupal/photoswipe",
+  "type": "drupal-module",
+  "description": "Integrates PhotoSwipe js slideshow into a custom content bundle.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/photoswipe",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/photoswipe",
+    "source": "http://cgit.drupalcode.org/photoswipe"
+  },
+  "require": { }
+}

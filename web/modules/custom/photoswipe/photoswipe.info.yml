@@ -1,0 +1,10 @@
+name: PhotoSwipe
+type: module
+description: Integrates PhotoSwipe js slideshow into a custom content bundle.
+core: 8.x
+package: Custom
+dependencies:
+  - block
+  - node
+  - path
+  - text

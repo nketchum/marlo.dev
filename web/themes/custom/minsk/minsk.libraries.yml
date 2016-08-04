@@ -1,0 +1,8 @@
+global-styling:
+  css:
+    theme:
+      dist/vendor/photoswipe/photoswipe.css: {}
+      dist/vendor/photoswipe/default-skin/default-skin.css: {}
+      dist/css/styles.min.css: {}
+  js:
+    dist/js/scripts.min.js: {}

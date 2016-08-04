@@ -1,0 +1,12 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_alter()
+ */
+function photoswipe_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if (in_array($form_id, array('media_image_edit_form', 'media_image_form'))) {
+    $form['revision_information']['#access'] = FALSE;
+  }
+}

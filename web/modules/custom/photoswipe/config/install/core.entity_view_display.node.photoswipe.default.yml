@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - node.type.photoswipe
+    module:
+        - text
+        - user
+id: node.photoswipe.default
+targetEntityType: node
+bundle: photoswipe
+mode: default
+content:
+    links:
+        weight: 100
+hidden: {  }

@@ -1,0 +1,11 @@
+{#
+/**
+ * @file
+ * Overidden theme implementation to display a formatted image field.
+ */
+#}
+{% if url %}
+  <a href="{{ url }}"{{ attributes.setAttribute('itemprop', 'contentUrl') }}{{ attributes.setAttribute('data-size', data_size) }}>{{ image }}</a>
+{% else %}
+  {{ image }}
+{% endif %}

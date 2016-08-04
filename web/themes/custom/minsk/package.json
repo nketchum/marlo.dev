@@ -1,0 +1,23 @@
+{
+  "name": "Minsk",
+  "version": "1.0.0",
+  "description": "Javascript functionality for the Drupal 8 bootstrap subtheme.",
+  "private": true,
+  "devDependencies": {
+    "jquery": "^3.1.0",
+    "jquery.infieldlabel": "git+https://git@github.com/dcneiner/In-Field-Labels-jQuery-Plugin.git",
+    "node-sass": "^3.8.0",
+    "path": "^0.12.7",
+    "photoswipe": "^4.1.1",
+    "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "compile": "mkdir -p dist && rm -rf dist && npm run scripts && npm run sass && npm run assets && npm run vendor",
+    "scripts": "mkdir -p dist/js && rm -rf dist/js && webpack",
+    "sass": "mkdir -p dist/css && rm -rf dist/css && node-sass --source-map dist/css --source-map-contents true --source-comments true src/scss/index.scss dist/css/styles.min.css",
+    "assets": "mkdir -p dist/assets && rm -rf dist/assets && mkdir -p dist/assets && cp `find ./src/assets -type f` dist/assets/",
+    "vendor": "mkdir -p dist/vendor && rm -rf dist/vendor && mkdir -p dist/vendor && cp -r node_modules/photoswipe/dist dist/vendor/photoswipe && cp -r node_modules/jquery.infieldlabel dist/vendor/jquery.infieldlabel",
+    "sass-watch": "node-sass --watch --source-map dist/css --source-map-contents true --source-comments true src/scss/index.scss dist/css/styles.min.css",
+    "postinstall": "npm run compile"
+  }
+}
