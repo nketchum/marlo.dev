@@ -1,0 +1,46 @@
+
+.region-header a.logo {
+  min-width: 290px;
+}
+
+form {
+  .form-item {
+    position: relative
+  }
+  label {
+    color: #999;
+    font-weight: normal;
+    height: 34px;
+    margin: 1px 1px 0;
+    padding: 6px 12px 0;
+    position: absolute;
+    top: 0;
+  }
+}
+
+.user-logged-in {
+  .contact-form {
+    #edit-name,
+    #edit-mail {
+      display: none;
+    }
+  }
+}
+
+// .pswp__button,
+// .pswp__button--arrow--left:before,
+// .pswp__button--arrow--right:before {
+//   background-image: url('/themes/custom/minsk/dist/vendor/photoswipe/default-skin/default-skin.png');
+// }
+
+// @media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
+//   .pswp--svg .pswp__button,
+//   .pswp--svg .pswp__button--arrow--left:before,
+//   .pswp--svg .pswp__button--arrow--right:before {
+//     background-image: url('/themes/custom/minsk/dist/vendor/photoswipe/default-skin/default-skin.svg');
+//   }
+// }
+
+// .pswp__preloader--active .pswp__preloader__icn {
+//   background-image: url('/themes/custom/minsk/dist/vendor/photoswipe/default-skin/preloader.gif');
+// }
