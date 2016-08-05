@@ -1,4 +1,6 @@
 global-styling:
   css:
     theme:
-      css/style.css: {}
+      dist/css/style.min.css: {}
+  js:
+    dist/js/scripts.min.js: {}
